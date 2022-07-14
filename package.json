@@ -2,6 +2,7 @@
 	"author": "Robert Mathews",
 	"description": "A project that does something awesome",
 	"name": "fcc-learn-npm-package-json",
+	"keywords": [ "descriptive", "related", "freecodecamp" ],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
