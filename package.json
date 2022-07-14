@@ -2,12 +2,16 @@
 	"author": "Robert Mathews",
 	"description": "A project that does something awesome",
 	"name": "fcc-learn-npm-package-json",
-	"keywords": [ "descriptive", "related", "freecodecamp" ],
+	"keywords": [
+		"descriptive",
+		"related",
+		"freecodecamp"
+	],
 	"version": "1.0.0",
 	"license": "MIT",
 	"dependencies": {
 		"express": "^4.14.0",
-		"moment": "^2.14.0"
+		"momment": "2.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -15,7 +19,7 @@
 	},
 	"engines": {
 		"node": "16.15.1"
-	  },
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
