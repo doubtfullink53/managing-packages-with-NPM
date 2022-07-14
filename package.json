@@ -1,5 +1,6 @@
 {
 	"author": "Robert Mathews",
+	"description": "A project that does something awesome",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
 		"express": "^4.14.0"
@@ -8,6 +9,9 @@
 	"scripts": {
 		"start": "node server.js"
 	},
+	"engines": {
+		"node": "16.15.1"
+	  },
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
