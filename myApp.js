@@ -2,18 +2,20 @@ let express = require('express');
 let app = express();
 require('dotenv').config();
 
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
+const { application } = require('express');
 
 app.use(function(req, res, next) {
     console.log(req.method + " " + req.path + " - " + req.ip)
     next();
 })
 
-app.use(function(req, res, next) {
-   
-    bodyParser.urlencoded({extended: false})
-    next();
-});
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
+
+// parse application/json
+app.use(bodyParser.json())
+
 
 
 app.get('/', (req, res) => {
