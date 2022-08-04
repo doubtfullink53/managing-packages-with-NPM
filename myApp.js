@@ -10,7 +10,7 @@ app.use(function(req, res, next) {
 })
 
 app.use(function(req, res, next) {
-    console.log(bodyParser)
+   
     bodyParser.urlencoded({extended: false})
     next();
 });
